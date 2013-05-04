@@ -1,0 +1,127 @@
+*,html,body,div,span{
+	margin: 0;
+	padding: 0;	
+}
+
+body{ 
+	background: #E7EBF4; 
+	font-family: arial;
+}
+
+div#head{
+	height: 90px;
+	background: #691D5A;
+}
+
+div#headWrapper{
+	width: 980px;
+	margin: 0 auto;
+	padding: 20px 0 0 0;
+}
+
+table.loginMatrix label{
+	color: #fff;
+}
+
+h2.logo{
+	color: #fff;
+	font-family: Monotype Corsiva;
+	font-size: 55px;
+	float: left;
+}
+
+div.login{
+	float: right;
+}
+div.login table tr td{
+	padding-right: 5px;
+}
+
+.loginButton{
+	background: #A93293;
+	color: #fff;
+	border: none;
+	padding: 5px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px; 
+	border-radius: 4px;
+}
+
+#username,#password{
+	width: 150px;
+	font-size: 20px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px; 
+	border-radius: 4px;
+}
+
+div#registerContainer{
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 45px 0 0 0;
+}
+
+div#registerContainer table{ margin: 0 auto; }
+
+div#registerContainer table tr td{
+	padding-bottom: 20px;
+}
+
+div#registerContainer h3{
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+#firstname,#lastname{
+	width: 195px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px; 
+	border-radius: 4px;
+	font-size: 30px;
+}
+
+#firstname{
+	margin-right: 13px;
+}
+
+#email,#verify_email,#reg_password{
+	width: 420px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px; 
+	border-radius: 4px;
+	font-size: 30px;
+}
+
+td.birthday{
+	text-align: left;
+	font-weight: bold;
+	font-size: 20px;
+	color: #000;
+}
+
+td.left-align{ text-align: left; }
+td label{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+td span{ padding-right: 10px; }
+
+input.reg_button{
+	background: #691D5A;
+	padding: 8px;
+	color: #fff;
+	border: none;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px; 
+	border-radius: 4px;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
